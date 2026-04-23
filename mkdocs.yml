@@ -1,0 +1,47 @@
+site_name: AxX-ZQ-PL-Documentation
+
+theme:
+  name: material
+  palette:
+      - scheme: default
+        primary: grey
+        accent: grey
+        toggle:
+          icon: material/brightness-6
+          name: Dark mode
+      - scheme: slate
+        primary: black
+        accent: cyan
+        toggle:
+          icon: material/brightness-4
+          name: Light mode
+  language: en
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.top
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css    
+
+nav:
+  - Home: index.md
+  - Pages:
+    - Page 1: pages/page_1.md
+    - Page 2: pages/page_2.md
+
+plugins:
+  - search
+  - mermaid2
+  - print-site
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom

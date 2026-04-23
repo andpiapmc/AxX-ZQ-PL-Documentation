@@ -1,0 +1,15 @@
+.md-sidebar--secondary .md-sidebar__scrollwrap {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.md-sidebar--secondary .md-sidebar__scrollwrap::-webkit-scrollbar {
+    display: none;
+}
+
+.md-sidebar--primary .md-sidebar__scrollwrap {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.md-sidebar--primary .md-sidebar__scrollwrap::-webkit-scrollbar {
+    display: none;
+}
