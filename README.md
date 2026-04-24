@@ -122,6 +122,14 @@ Removes the previous `site/` output before rebuilding:
 mkdocs build --clean
 ```
 
+### Visual Studio Code tasks automation
+
+Add tasks automation in `.vscode/tasks.json`
+
+    MkDocs Build
+    MkDocs Clean
+    MkDocs Serve
+
 ---
 
 ## Configuration Overview
@@ -162,11 +170,10 @@ graph TD
 
 ## Contributing
 
-1. Create a new branch: `git checkout -b docs/your-topic`
-2. Add or edit Markdown documentation files under `docs/pages/`
-3. Add new files in `docs/index.md`
-4. Update Nav section in `mkdocs.yml`
-5. Preview changes locally with `mkdocs serve`
-6. Commit and open a Pull Request
+1. Add or edit Markdown documentation files under `docs/pages/`
+2. Add new files in `docs/index.md`
+3. Update `Nav` section in `mkdocs.yml`
+4. Preview changes locally with `mkdocs serve`
+5. Commit
 
 ---
