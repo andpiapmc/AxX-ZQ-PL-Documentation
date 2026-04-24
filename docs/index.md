@@ -2,5 +2,4 @@
 
 ## Summary
 
-* [Page 1](pages/page_1.md)
-* [Page 2](pages/page_2.md)
+* [Ethernet IF](pages/ethernet_interface.md)
